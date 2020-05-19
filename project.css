@@ -1,0 +1,50 @@
+a:hover {
+  color: purple;
+  font-size: 130%;
+
+}
+@keyframes mymove {
+  0%   {top: 0px; background:green; font-size: 26px;}
+  100% {top: 100px; background: purple; font-size:60px;}
+}
+
+}
+a:active{
+  color: lime;
+  font-size: 120%;
+}
+
+nav{
+  float: right;
+  text-decoration: none;
+margin-top: 120px;
+
+}
+h1{
+  animation-name: mymove;
+animation-duration: 3s;
+animation-iteration-count: 1;
+}
+div{
+  text-align: center;
+  margin-left: 90px;
+  margin-right: 90px;
+  font-size: 22px;
+text-decoration: none;
+font-family: 'Nunito', sans-serif;
+}
+nav a{
+  text-decoration: none;
+  color:	#FF4500;
+  font-size: 25px;
+padding:12px;
+}
+#big1{
+  width:800px;
+  height: 500px;
+}
+body{
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTxBZmSW0B_IyvOrgYxIO8GTtHZjqL5NdHae0pRpd0i0JBJ_3T2&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
