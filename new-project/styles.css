@@ -1,0 +1,27 @@
+.container-fluid{
+    text-align: center;
+    position: relative;
+}
+#editor{
+    height: 250px;
+    width: 500px;
+    margin-top: 30px;
+    text-align: left;
+}
+#preview{
+    /* border: 1px solid black; */
+    color: chartreuse;
+    margin-top:15px;
+    margin-left: 160px;
+    width: auto;
+    height:auto;
+    border: 1px solid black ;
+    text-align: center;
+}
+body{
+    background-color: #3300ff;
+}
+header{
+    text-align: center;
+    font-size: 27px;
+}
