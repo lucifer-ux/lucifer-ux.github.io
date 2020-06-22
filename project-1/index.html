@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>DRUMSET</title>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <header>A DRUM MACHINE</header>
+        <p>keep the volume low and press any key on your keyboard or click on screen</p>
+        <div id="drum-machine" class="container-fluid" >
+                <div id="display" >
+                    <!-- Q, W, E, A, S, D, Z, X, C. -->
+                    <div class="row">
+                    <button  class="drum-pad btn btn-primary" class="col-md " id="drum-0" onclick="play1();">Q
+                        <audio src="one.mp3" class="clip" id="Q" ></audio>
+                    </button>           
+                    <button  class="drum-pad btn btn-primary" class="col-md " id="drum-1" onclick="play2();">W
+                        <audio src="two.mp3" class="clip" id="W"></audio>
+                    </button>           
+                    <button  class="drum-pad btn btn-primary" class="col-md " id="drum-2" onclick="play3();">E
+                        <audio src="three.mp3" class="clip" id="E"></audio>
+                    </button>           </div>
+                    <div class="row">
+                    <button  class="drum-pad btn btn-primary" class="col-md " id="drum-3" onclick="play4();">A
+                        <audio src="fou.mp3" class="clip" id="A"></audio>
+                    </button>           
+                    <button  class="drum-pad btn btn-primary" class="col-md " id="drum-4" onclick="play5();">S
+                        <audio src="five.mp3" class="clip" id="S"></audio>
+                    </button>           
+                    <button  class="drum-pad btn btn-primary" class="col-md " id="drum-5" onclick="play6();">D
+                        <audio src="six.mp3" class="clip" id="D"></audio>
+                    </button>           
+                    </div>
+                    <div class="row">
+                    <button  class="drum-pad btn btn-primary" class="col-md " id="drum-6" onclick="play7();">Z
+                        <audio src="seven.mp3" class="clip" id="Z"></audio>
+                    </button>           
+                    <button  class="drum-pad btn btn-primary" class="col-md " id="drum-7" onclick="play8();">X
+                        <audio src="eight.mp3" class="clip" id="X"></audio>
+                    </button>           
+                    <button  class="drum-pad btn btn-primary" class="col-md " id="drum-8" onclick="play9();">C
+                        <audio src="nine.mp3" class="clip" id="C"></audio>
+                    </button>           
+                    <div id="what"></div>
+                </div>
+        </div>        
+        <footer>Made by Shashwat Shukla</footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
