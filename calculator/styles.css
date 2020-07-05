@@ -1,0 +1,26 @@
+.container{
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.btn{
+  background-color: turquoise;
+  border-radius: 25px;
+
+}
+.btn:hover{
+  background-color: yellowgreen;
+  color: brown;
+  border-radius: 40px;
+}
+table{
+  border-radius: 25px;
+}
+#display{
+  background-color: darkblue;
+  color: antiquewhite;
+}
+#display:hover{
+  background-color: blueviolet;
+  color: brown;
+}

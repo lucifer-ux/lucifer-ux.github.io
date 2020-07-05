@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      calculator
+    </title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+    <FORM name="Calculator">
+      <table width="45%"  bgcolor="#339944"><tr>      <!--OUTER MARGIN OF CALCULATOR-->
+      <td colspan="2" align="center">
+      
+      <b><font face="Verdana, Arial, Helvetica" color="#000080" size="3">
+      A Simple JavaScript Calculator<br></font>
+      <font face="Courier" size="5">
+      <input id="display" type="text" maxlength="40" size="25" name="Display" onChange="FixCurrent()">
+      </font></b>
+      
+      </td></tr>
+      <tr><td width="65%" align="center">                   <!--left panel------>
+      
+      <table><tr>
+        <td><input  class="btn" id="seven" type="button" name="seven" value="   7    " OnClick="AddDigit('7')"></td>
+        <td><input  class="btn" id="eight" type="button" name="eight" value="   8    " OnClick="AddDigit('8')"></td>
+        <td><input  class="btn" id="nine" type="button" name="nine" value="   9    " OnClick="AddDigit('9')"></td>
+      </tr><tr>
+        <td><input class="btn"  id="four" type="button" name="four" value="   4    " OnClick="AddDigit('4')"></td>
+        <td><input  class="btn" id="five" type="button" name="five" value="   5    " OnClick="AddDigit('5')"></td>
+        <td><input  class="btn" id="six" type="button" name="six" value="   6    " OnClick="AddDigit('6')"></td>
+      </tr><tr>
+        <td><input  class="btn" id="one" type="button" name="one" value="   1    " OnClick="AddDigit('1')"></td>
+        <td><input  class="btn" id="two" type="button" name="two" value="   2    " OnClick="AddDigit('2')"></td>
+        <td><input  class="btn" id="three" type="button" name="three" value="   3    " OnClick="AddDigit('3')"></td>
+      </tr><tr>
+        <td><input class="btn"   type="button" name="plusmin" value="  +/-  " OnClick="PlusMinus()"></td>
+        <td><input class="btn"  id="zero" type="button" name="one" value="   0    " OnClick="AddDigit('0')"></td>
+        <td><input class="btn"  id="decimal" type="button" name="two" value="." OnClick="Dot()"></td>
+      </tr>
+      </table>
+      
+      
+      </td>                                   <!--end left panel-->
+      <td width="35%" align="center">                     <!--right panel----->
+      
+      <table><tr>
+        <td><input  class="btn" type="button" name="clear" value="    C     " OnClick="Clear()"></td>
+        <td><input class="btn"  id="clear" type="button" name="AC" value="   AC    " OnClick="AllClear()"></td>
+      </tr><tr>
+        <td><input  class="btn" id="multiply" type="button" name="mul" value="     *     " OnClick="Operate('*')"></td>
+        <td><input  class="btn" id="divide" type="button" name="div" value="     /      " OnClick="Operate('/')"></td>
+      </tr><tr>
+        <td><input class="btn"  id="add" type="button" name="add" value="    +     " OnClick="Operate('+')"></td>
+        <td><input  class="btn" id="subtract" type="button" name="sub" value="     -      " OnClick="Operate('-')"></td>
+      </tr><tr>
+        <td><input  class="btn" id="equals" type="button" name="result" value="=" OnClick="Calculate()"></td>
+        <td align="right"><input class="btn"  type="button" name="exp" value="  EXP  " OnClick="DoExponent()"></td>
+      </tr></table>
+      
+      
+      </td>                                   <!--end right panel-->
+      </tr></table>                          <!--END OUTER MARGIN CALC------->
+      </FORM></div>
+
+        <script src="index.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
