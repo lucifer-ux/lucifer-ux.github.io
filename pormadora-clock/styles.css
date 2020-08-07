@@ -1,0 +1,138 @@
+footer{
+    margin-top: 50px;
+    color: #ff8833;
+    font-size: 1.2em;
+}
+#link{
+    text-align: right;
+}
+#link a{
+    font-size: 1.3em;
+    color: red;
+}
+#link a:hover{
+    color: royalblue;
+    font-size: 1.8em;
+}
+h1{
+    margin-bottom: 50px;
+}
+body{
+    background-color: #8833ff;
+}
+.container{
+    position: absolute;
+    text-align: center;
+}
+#break-label{
+   margin-right: 80px  ;
+   font-weight: bold;
+   font-size: 50px;
+}
+#session-label{
+    font-weight: bold;
+    font-size: 50px;
+}
+#break-increment{
+    margin-right: 70px;
+    border: blue 3px solid;
+}
+#break-decrement{
+    margin-right: 70px;
+    border: blue 3px solid;
+}
+#session-increment, #session-decrement{
+    border: blue 3px solid;
+}
+#break-length{
+    position: relative;
+    left: 400px;
+    top: 10px;
+    font-size: 3em;
+    font-weight: bolder;
+    border: black solid 2px;
+    width: 5%;
+    
+}
+#session-length{
+    position: relative;
+    left: 620px;
+    bottom: 70px;
+    font-size: 3em;
+    font-weight: bolder;
+    width: 7%;
+    border:black solid 2px;
+    
+}
+#timer-label{
+    position: relative;
+    bottom: 55px;
+    left: 430px;
+    width: 18%;
+    font-size: 3em;
+    font-weight: bolder;
+    border: solid 2px blue;
+    width: fit-content;
+    height: fit-content;
+    
+}
+#time-left{
+    position: relative;
+    bottom: 50px;
+    left: 430px;
+    font-size: 3em;
+    font-weight: bolder;
+    border: solid 2px blue;
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+    
+}
+#start_stop{
+    position: relative;
+    bottom: 40px;
+    font-size: 2em;
+    font-weight: 900;
+    border: solid 2px blue;
+    width: fit-content;
+    height: fit-content;
+    
+}
+#start_stop1{
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+    font-size: 2em;
+    font-weight: 900;
+    border: solid 2px blue;
+    width: fit-content;
+    height: fit-content;
+    
+}
+#reset{
+    position: relative;
+    top: 30px;
+    right: 120px;
+    font-weight: bolder;
+    font-size: 1.8em;
+    border: solid 2px blue;
+    width: fit-content;
+    height: fit-content;
+    
+}
+#container{
+    position: relative;
+    left:330px;
+    border: blue solid 2px;
+    padding:10px;
+    width: 40%;
+}
+button{
+    border-radius: 12px;
+    color: black;
+    background-color: #1199ff;
+}
+button:hover{
+    color: blue;
+    background-color:white;
+}
