@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff55;
+}
+svg{
+    background-color: #ff55;
+}
+#tooltip{
+    background-color:#ff55;
+}
+.bar{
+    background-color: blue;
+    fill: yellowgreen;
+}
+.bar:hover{
+    fill:blue;  
+}
+g{
+    color: coral;
+}
+html{
+    height: 100%;
+}
