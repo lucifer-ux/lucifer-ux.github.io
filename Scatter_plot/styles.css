@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+text{
+    margin-top: 50px;
+}
+#legend{
+    padding:20px;
+}
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
