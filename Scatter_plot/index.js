@@ -73,8 +73,10 @@ let drawCircle=()=>
                 }
                 else {
                   tooltip.text(item['Year']+'_'+item['Name']+'_'+item['Time']+'_'+'no doping')
-
+  
                 }
+                                tooltip.attr('data-year',item['Year'])
+
       })
       .on('mouseout',(item)=>{
         tooltip.transition()
