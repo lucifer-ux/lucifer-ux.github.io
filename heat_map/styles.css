@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: #339966;
+}
+#workPlace{
+    margin-top: 50px;
+}
+svg g{
+    text-align: center;
+    margin-left: 50px;
+}
+text{
+    font-size: 0.65em;
+}
+#legend{
+    margin-top: 20px;
+}
+#tooltip{
+    height: auto;
+    width: auto;
+    visibility: hidden;
+}
+footer{
+   
+    text-align: center;
+    font-weight: bold;
+}

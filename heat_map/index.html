@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">thermal-graph</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="description">Monthly Global Land Surface Temprature</div>
+    <div id="tooltip" ></div>
+    <svg id="workPlace">
+
+    </svg>
+    <svg id="legend">
+        <g>
+            <rect x='10' y='0' fill='steelBlue' width='20' height='20'></rect>
+            <text x='0' y='60' fill="black"> below -1</text>
+        </g>
+        <g>
+        <rect fill='LightSteelBlue' x='100' y='0' width='20' height='20'></rect>
+        <text x='90' y='60' fill="black"> below 0</text>
+        </g>
+        <g>
+        <rect fill='orange' x='190' y='0' width='20' height='20'></rect>
+        <text x='180' y='60' fill="black"> below 1</text>
+        </g>
+        <g>
+        <rect fill='crimson' x='280' y='0' width='20' height='20'></rect>
+        <text x='260' y='60' fill="black"> below 1</text>
+        </g>    
+
+
+    </svg>
+   <footer> Made by- Shashwat Shukla</footer>
+</body>
+<script src="index.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
