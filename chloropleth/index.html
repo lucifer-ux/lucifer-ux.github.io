@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Chloropleth</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="styles.css ">
+    
+</head>
+<body>
+    <h3 id="description">Details of schools</h3>
+    <h4 id="tooltip"></h4>
+
+    <svg id="canvas">
+        
+    </svg>
+    <svg id="legend">
+        <g>
+            <rect x='10' y='0' width='20' height='20' fill='orange'></rect>
+            <text x='0' y='60' fill='black'>
+                 &lt; 15   
+           </text>
+        </g>
+
+        <g>
+            <rect x='50' y='0' width='20' height='20' fill='red'></rect>
+            <text x='40' y='60' fill='black'>
+                &lt; 30   
+           </text>
+        </g>
+
+        <g>
+            <rect x='90' y='0' width='20' height='20' fill='blue'></rect>
+            <text x='80' y='60' fill='black'>
+                &lt; 30   
+           </text>
+        </g>
+        <g>
+            <rect x='130' y='0' width='20' height='20' fill='green'></rect>
+            <text x='120' y='60' fill='black'>
+                &lt; 30   
+           </text>
+        </g>
+
+    </svg>
+    
+</body>
+<script src="index.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
